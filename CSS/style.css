@@ -6,8 +6,8 @@ body{
 	margin:0; 
 	/*background-color: #f4f4f4;*/
 	/*Color Combination: Orange= #F36931, Grey= #BBB6B3, Brown= #4A3D35 and Black= #000000;*/
-	/*YUKTI Color Combination: DarkGrey= #35424a, Frushia= #BA3954, White= #ffffff, LightGray= #cccccc, Black= #000000*/
-	/*Samatvam Color Combination: LightGreen= #C0E789, Yellow= #ECD834, DarkGreen= #34AA00 and Black= #000000;*/
+	/*Color Combination: DarkGrey= #35424a, Frushia= #BA3954, White= #ffffff, LightGray= #cccccc, Black= #000000*/
+	/*Color Combination: LightGreen= #C0E789, Yellow= #ECD834, DarkGreen= #34AA00 and Black= #000000;*/
 	background: url('../Images/BG1.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -127,11 +127,11 @@ footer .container_footer{
 	text-shadow: 2px 2px 5px #000000;
 }
 
-ul{
+.ul{
     display: inline-block;
 }
 
-table, th, td {
+.table, .th, .td {
     border: 1px solid;
     align-self: center;
     align-items: center;
