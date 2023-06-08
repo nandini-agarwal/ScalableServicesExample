@@ -34,7 +34,7 @@ header #container_header{
 }
 
 header #branding{
-	float: left;	
+	text-align: center;	
 }
 
 span #branding_span{
@@ -97,66 +97,11 @@ footer .container_footer{
 }
 
 .footerBox {
-	float: left;
 	text-align:center;
-	width: 40%;
+	width: 80%;
 	padding:10px;
 	position: relative;	
 	box-sizing: border-box;
-}
-
-.footerIcon {
-	float: left;
-	text-align:center;
-	width:25%;
-	padding:10px;
-	position: relative;	
-	align-self: center;
-}
-
-.footerIcon img{
-	width:70px;
-	height: 70px;
-	border-radius: 8px;
-}
-
-.footerIconOverlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  
-}
-
-.footerIcon:hover .footerIconOverlay {
-  opacity: 1;
-}
-
-.footerIconText {
-  color: #BA3954;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-shadow: none;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.footerBox2 {
-	float:left;
-	text-align:center;
-	width: 20%;
-	
-	position: relative;
-	box-sizing: border-box;	
 }
 
 /*FOOTER ENDS*/
@@ -166,7 +111,32 @@ footer .container_footer{
 	min-height:500px;
 	/*width: 90%;*/
 	align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.elements{
+    margin: auto;
+	overflow: hidden;
+	width: 90%;
+	font-size:20px;
+	color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+ul{
+    display: inline-block;
+}
+
+table, th, td {
+    border: 1px solid;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 /*CONTENT ENDS*/
 
 /*Media Queries*/
